@@ -8,6 +8,7 @@ import Sort from "./components/Sort/Sort.jsx";
 import { Route, Routes } from "react-router-dom";
 import Details from "./components/DetailsPage/Details";
 import HomePage from "./components/Product/HomePage";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/details/:detailslug" element={<Details/>} />
       </Routes>
+      <Footer/>
 
     </>
   );

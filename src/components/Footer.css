@@ -1,0 +1,32 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 0.9em;
+        padding: 0 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer p {
+        font-size: 0.8em;
+        padding: 0 0.5em;
+    }
+}
